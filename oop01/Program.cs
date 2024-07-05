@@ -21,6 +21,11 @@
             return $"the name : {Name} and the age : {Age}";
         }
     }
+    //q3
+    enum Seasons
+    {
+        Spring, Summer, Autumn, Winter
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -47,7 +52,30 @@
             //    Console.WriteLine(people[i].ToString());
             //}
             #endregion
+            #region q3
+            //Seasons season ;
+            //do
+            //{
+            //    Console.Write("enter the season : ");
+            //    bool flag = Enum.TryParse(Console.ReadLine(), true, out season);
+            //} while (season != Seasons.Winter && season!=Seasons.Spring && season != Seasons.Summer && season != Seasons.Autumn);
+            //switch (season)
+            //{
+            //    case Seasons.Spring:
+            //        Console.WriteLine("march to may");
+            //        break;
+            //    case Seasons.Winter:
+            //        Console.WriteLine("December to February");
+            //        break;
+            //    case Seasons.Autumn:
+            //        Console.WriteLine("September to November");
+            //        break;
+            //    case Seasons.Summer:
+            //        Console.WriteLine("june to august");
+            //        break;
 
+            //}
+            #endregion
         }
     }
 }
