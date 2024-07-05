@@ -32,6 +32,11 @@
     {
         Read = 1, write = 2, Delete = 4, Execute = 8
     }
+    //q5
+    enum Colors
+    {
+        Red, Green, Blue
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -104,6 +109,25 @@
             //catch (Exception e) 
             //{
             //    Console.WriteLine(e.Message);
+            //}
+            #endregion
+            #region q5
+            //Console.Write("enter the color : ");
+            //bool flag = Enum.TryParse(Console.ReadLine(), true, out Colors color);
+            //if (flag)
+            //{
+            //    for (int i = 0; i < 3; i++)
+            //    {
+            //        if (((Colors)i) == color)
+            //        {
+            //            Console.WriteLine("the input color is a primary color");
+            //            break;
+            //        }
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("the input color is not a primary color");
             //}
             #endregion
         }
