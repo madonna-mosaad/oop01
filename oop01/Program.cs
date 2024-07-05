@@ -1,5 +1,54 @@
 ﻿namespace oop01
 {
+    //q1
+    enum Days
+    {
+        Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday
+    }
+    //q2 and q7
+    struct Person
+    {
+        public string Name
+        {
+            get; set;
+        }
+        public int Age
+        {
+            get; set;
+        }
+        public override string ToString()
+        {
+            return $"the name : {Name} and the age : {Age}";
+        }
+    }
+    //q3
+    enum Seasons
+    {
+        Spring, Summer, Autumn, Winter
+    }
+    //q4
+    [Flags]
+    enum Permissions
+    {
+        Read = 1, write = 2, Delete = 4, Execute = 8
+    }
+    //q5
+    enum Colors
+    {
+        Red, Green, Blue
+    }
+    //q6
+    struct Point
+    {
+        public double X
+        {
+            get; set;
+        }
+        public double Y
+        {
+            get; set;
+        }
+    }
     internal class Program
     {
         static void Main(string[] args)
