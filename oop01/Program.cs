@@ -26,6 +26,12 @@
     {
         Spring, Summer, Autumn, Winter
     }
+    //q4
+    [Flags]
+    enum Permissions
+    {
+        Read = 1, write = 2, Delete = 4, Execute = 8
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -74,6 +80,30 @@
             //        Console.WriteLine("june to august");
             //        break;
 
+            //}
+            #endregion
+            #region q4
+            //try
+            //{
+            //    Permissions P = (Permissions)7;
+            //    //to add
+            //    P |= Permissions.Execute;
+            //    //to delete
+            //    P &= ~(Permissions.Read);
+            //    //to check
+
+            //    if ((P & Permissions.Execute) == Permissions.Execute)
+            //    {
+            //        Console.WriteLine("the delete permission is exist");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("the delete permission is not exist");
+            //    }
+            //}
+            //catch (Exception e) 
+            //{
+            //    Console.WriteLine(e.Message);
             //}
             #endregion
         }
