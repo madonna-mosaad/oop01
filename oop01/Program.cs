@@ -170,6 +170,65 @@
             //Console.WriteLine($"the distance between point01 and point02 is : {Math.Sqrt(Math.Pow((x01-x02),2)+Math.Pow((y01-y02),2))}");
 
             #endregion
+            #region q7
+            //Person p01 = new Person();
+            //Person p02 = new Person();
+            //Person p03 = new Person();
+            //int Age;
+            //Console.Write("enter Name of first person: ");
+            //p01.Name = Console.ReadLine();
+            //do
+            //{
+            //    Console.Write("enter Age of first person : ");
+            //} while (!int.TryParse(Console.ReadLine(), out Age));
+            //p01.Age = Age;
+            //Console.Write("enter Name of second person: ");
+            //p02.Name = Console.ReadLine();
+            //do
+            //{
+            //    Console.Write("enter Age of second person : ");
+            //} while (!int.TryParse(Console.ReadLine(), out Age));
+            //p02.Age = Age;
+            //Console.Write("enter Name of third person: ");
+            //p03.Name = Console.ReadLine();
+            //do
+            //{
+            //    Console.Write("enter Age of third person : ");
+            //} while (!int.TryParse(Console.ReadLine(), out Age));
+            //p03.Age = Age;
+
+            //int oldest=p03.Age;
+            //if (p01.Age > oldest)
+            //{
+            //    if (p02.Age > p01.Age)
+            //    {
+            //        oldest = p02.Age;
+            //    }
+            //    else
+            //    {
+            //        oldest = p01.Age;
+            //    }
+            //}
+            //else
+            //{
+            //    if (p02.Age > oldest)
+            //    {
+            //        oldest = p02.Age;
+            //    }
+            //}
+            //if(oldest == p01.Age)
+            //{
+            //    Console.WriteLine(p01.ToString());
+            //}
+            //if (oldest == p02.Age)
+            //{
+            //    Console.WriteLine(p02.ToString());
+            //}
+            //if(oldest == p03.Age)
+            //{
+            //    Console.WriteLine(p03.ToString());
+            //}
+            #endregion
         }
     }
 }
