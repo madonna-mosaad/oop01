@@ -37,6 +37,18 @@
     {
         Red, Green, Blue
     }
+    //q6
+    struct Point
+    {
+        public double X
+        {
+            get; set;
+        }
+        public double Y
+        {
+            get; set;
+        }
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -129,6 +141,34 @@
             //{
             //    Console.WriteLine("the input color is not a primary color");
             //}
+            #endregion
+            #region q6
+            //Point point01=new Point();
+            //Point point02=new Point();
+            //double x01,x02, y01, y02;
+
+            //do
+            //{
+            //    Console.Write("enter x01 : ");
+            //} while (!double.TryParse(Console.ReadLine(), out x01));
+            //point01.X = x01;
+            //do
+            //{
+            //    Console.Write("enter y01 : ");
+            //} while (!double.TryParse(Console.ReadLine(), out y01));
+            //point01.Y = y01;
+            //do
+            //{
+            //    Console.Write("enter x02 : ");
+            //} while (!double.TryParse(Console.ReadLine(), out x02));
+            //point02.X = x02;
+            //do
+            //{
+            //    Console.Write("enter y02 : ");
+            //} while (!double.TryParse(Console.ReadLine(), out y02));
+            //point02.Y = y02;
+            //Console.WriteLine($"the distance between point01 and point02 is : {Math.Sqrt(Math.Pow((x01-x02),2)+Math.Pow((y01-y02),2))}");
+
             #endregion
         }
     }
